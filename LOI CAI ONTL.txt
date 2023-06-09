@@ -1,0 +1,472 @@
+DB_Error Object
+(
+    [error_message_prefix] => 
+    [mode] => 1
+    [level] => 1024
+    [code] => -24
+    [message] => DB Error: connect failed
+    [userinfo] =>  [nativecode=Access denied for user 'ontl'@'localhost' (using password: YES)] ** mysql://ontl:DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW@localhost/ontl
+    [backtrace] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\PEAR\DB.php
+                    [line] => 966
+                    [function] => PEAR_Error
+                    [class] => PEAR_Error
+                    [object] => DB_Error Object
+ *RECURSION*
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => DB Error: connect failed
+                            [1] => -24
+                            [2] => 1
+                            [3] => 1024
+                            [4] =>  [nativecode=Access denied for user 'ontl'@'localhost' (using password: YES)]
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\PEAR\PEAR.php
+                    [line] => 563
+                    [function] => DB_Error
+                    [class] => DB_Error
+                    [object] => DB_Error Object
+ *RECURSION*
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => -24
+                            [1] => 1
+                            [2] => 1024
+                            [3] =>  [nativecode=Access denied for user 'ontl'@'localhost' (using password: YES)]
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\PEAR\DB\common.php
+                    [line] => 1903
+                    [function] => raiseError
+                    [class] => PEAR
+                    [object] => DB_mysql Object
+                        (
+                            [phptype] => mysql
+                            [dbsyntax] => mysql
+                            [features] => Array
+                                (
+                                    [limit] => alter
+                                    [new_link] => 4.2.0
+                                    [numrows] => 1
+                                    [pconnect] => 1
+                                    [prepare] => 
+                                    [ssl] => 
+                                    [transactions] => 1
+                                )
+
+                            [errorcode_map] => Array
+                                (
+                                    [1004] => -15
+                                    [1005] => -15
+                                    [1006] => -15
+                                    [1007] => -5
+                                    [1008] => -17
+                                    [1022] => -5
+                                    [1044] => -26
+                                    [1046] => -14
+                                    [1048] => -3
+                                    [1049] => -27
+                                    [1050] => -5
+                                    [1051] => -18
+                                    [1054] => -19
+                                    [1061] => -5
+                                    [1062] => -5
+                                    [1064] => -2
+                                    [1091] => -4
+                                    [1100] => -21
+                                    [1136] => -22
+                                    [1142] => -26
+                                    [1146] => -18
+                                    [1216] => -3
+                                    [1217] => -3
+                                    [1356] => -13
+                                    [1451] => -3
+                                    [1452] => -3
+                                )
+
+                            [connection] => 
+                            [dsn] => Array
+                                (
+                                    [phptype] => mysql
+                                    [dbsyntax] => mysql
+                                    [username] => ontl
+                                    [password] => DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW
+                                    [protocol] => tcp
+                                    [hostspec] => localhost
+                                    [port] => 
+                                    [socket] => 
+                                    [database] => ontl
+                                )
+
+                            [autocommit] => 1
+                            [transaction_opcount] => 0
+                            [_db] => 
+                            [fetchmode] => 1
+                            [fetchmode_object_class] => stdClass
+                            [was_connected] => 
+                            [last_query] => 
+                            [options] => Array
+                                (
+                                    [result_buffering] => 500
+                                    [persistent] => 
+                                    [ssl] => 
+                                    [debug] => 2
+                                    [seqname_format] => %s_seq
+                                    [autofree] => 
+                                    [portability] => 63
+                                    [optimize] => performance
+                                )
+
+                            [last_parameters] => Array
+                                (
+                                )
+
+                            [prepare_tokens] => Array
+                                (
+                                )
+
+                            [prepare_types] => Array
+                                (
+                                )
+
+                            [prepared_queries] => Array
+                                (
+                                )
+
+                            [_last_query_manip] => 
+                            [_next_query_manip] => 
+                            [_debug] => 
+                            [_default_error_mode] => 
+                            [_default_error_options] => 
+                            [_default_error_handler] => 
+                            [_error_class] => DB_Error
+                            [_expected_errors] => Array
+                                (
+                                )
+
+                        )
+
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                            [1] => -24
+                            [2] => 
+                            [3] => 
+                            [4] =>  [nativecode=Access denied for user 'ontl'@'localhost' (using password: YES)]
+                            [5] => DB_Error
+                            [6] => 1
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\PEAR\DB\mysql.php
+                    [line] => 252
+                    [function] => raiseError
+                    [class] => DB_common
+                    [object] => DB_mysql Object
+                        (
+                            [phptype] => mysql
+                            [dbsyntax] => mysql
+                            [features] => Array
+                                (
+                                    [limit] => alter
+                                    [new_link] => 4.2.0
+                                    [numrows] => 1
+                                    [pconnect] => 1
+                                    [prepare] => 
+                                    [ssl] => 
+                                    [transactions] => 1
+                                )
+
+                            [errorcode_map] => Array
+                                (
+                                    [1004] => -15
+                                    [1005] => -15
+                                    [1006] => -15
+                                    [1007] => -5
+                                    [1008] => -17
+                                    [1022] => -5
+                                    [1044] => -26
+                                    [1046] => -14
+                                    [1048] => -3
+                                    [1049] => -27
+                                    [1050] => -5
+                                    [1051] => -18
+                                    [1054] => -19
+                                    [1061] => -5
+                                    [1062] => -5
+                                    [1064] => -2
+                                    [1091] => -4
+                                    [1100] => -21
+                                    [1136] => -22
+                                    [1142] => -26
+                                    [1146] => -18
+                                    [1216] => -3
+                                    [1217] => -3
+                                    [1356] => -13
+                                    [1451] => -3
+                                    [1452] => -3
+                                )
+
+                            [connection] => 
+                            [dsn] => Array
+                                (
+                                    [phptype] => mysql
+                                    [dbsyntax] => mysql
+                                    [username] => ontl
+                                    [password] => DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW
+                                    [protocol] => tcp
+                                    [hostspec] => localhost
+                                    [port] => 
+                                    [socket] => 
+                                    [database] => ontl
+                                )
+
+                            [autocommit] => 1
+                            [transaction_opcount] => 0
+                            [_db] => 
+                            [fetchmode] => 1
+                            [fetchmode_object_class] => stdClass
+                            [was_connected] => 
+                            [last_query] => 
+                            [options] => Array
+                                (
+                                    [result_buffering] => 500
+                                    [persistent] => 
+                                    [ssl] => 
+                                    [debug] => 2
+                                    [seqname_format] => %s_seq
+                                    [autofree] => 
+                                    [portability] => 63
+                                    [optimize] => performance
+                                )
+
+                            [last_parameters] => Array
+                                (
+                                )
+
+                            [prepare_tokens] => Array
+                                (
+                                )
+
+                            [prepare_types] => Array
+                                (
+                                )
+
+                            [prepared_queries] => Array
+                                (
+                                )
+
+                            [_last_query_manip] => 
+                            [_next_query_manip] => 
+                            [_debug] => 
+                            [_default_error_mode] => 
+                            [_default_error_options] => 
+                            [_default_error_handler] => 
+                            [_error_class] => DB_Error
+                            [_expected_errors] => Array
+                                (
+                                )
+
+                        )
+
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => -24
+                            [1] => 
+                            [2] => 
+                            [3] => 
+                            [4] => Access denied for user 'ontl'@'localhost' (using password: YES)
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\PEAR\DB.php
+                    [line] => 556
+                    [function] => connect
+                    [class] => DB_mysql
+                    [object] => DB_mysql Object
+                        (
+                            [phptype] => mysql
+                            [dbsyntax] => mysql
+                            [features] => Array
+                                (
+                                    [limit] => alter
+                                    [new_link] => 4.2.0
+                                    [numrows] => 1
+                                    [pconnect] => 1
+                                    [prepare] => 
+                                    [ssl] => 
+                                    [transactions] => 1
+                                )
+
+                            [errorcode_map] => Array
+                                (
+                                    [1004] => -15
+                                    [1005] => -15
+                                    [1006] => -15
+                                    [1007] => -5
+                                    [1008] => -17
+                                    [1022] => -5
+                                    [1044] => -26
+                                    [1046] => -14
+                                    [1048] => -3
+                                    [1049] => -27
+                                    [1050] => -5
+                                    [1051] => -18
+                                    [1054] => -19
+                                    [1061] => -5
+                                    [1062] => -5
+                                    [1064] => -2
+                                    [1091] => -4
+                                    [1100] => -21
+                                    [1136] => -22
+                                    [1142] => -26
+                                    [1146] => -18
+                                    [1216] => -3
+                                    [1217] => -3
+                                    [1356] => -13
+                                    [1451] => -3
+                                    [1452] => -3
+                                )
+
+                            [connection] => 
+                            [dsn] => Array
+                                (
+                                    [phptype] => mysql
+                                    [dbsyntax] => mysql
+                                    [username] => ontl
+                                    [password] => DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW
+                                    [protocol] => tcp
+                                    [hostspec] => localhost
+                                    [port] => 
+                                    [socket] => 
+                                    [database] => ontl
+                                )
+
+                            [autocommit] => 1
+                            [transaction_opcount] => 0
+                            [_db] => 
+                            [fetchmode] => 1
+                            [fetchmode_object_class] => stdClass
+                            [was_connected] => 
+                            [last_query] => 
+                            [options] => Array
+                                (
+                                    [result_buffering] => 500
+                                    [persistent] => 
+                                    [ssl] => 
+                                    [debug] => 2
+                                    [seqname_format] => %s_seq
+                                    [autofree] => 
+                                    [portability] => 63
+                                    [optimize] => performance
+                                )
+
+                            [last_parameters] => Array
+                                (
+                                )
+
+                            [prepare_tokens] => Array
+                                (
+                                )
+
+                            [prepare_types] => Array
+                                (
+                                )
+
+                            [prepared_queries] => Array
+                                (
+                                )
+
+                            [_last_query_manip] => 
+                            [_next_query_manip] => 
+                            [_debug] => 
+                            [_default_error_mode] => 
+                            [_default_error_options] => 
+                            [_default_error_handler] => 
+                            [_error_class] => DB_Error
+                            [_expected_errors] => Array
+                                (
+                                )
+
+                        )
+
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [phptype] => mysql
+                                    [dbsyntax] => mysql
+                                    [username] => ontl
+                                    [password] => DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW
+                                    [protocol] => tcp
+                                    [hostspec] => localhost
+                                    [port] => 
+                                    [socket] => 
+                                    [database] => ontl
+                                )
+
+                            [1] => 
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\core\core.php
+                    [line] => 37
+                    [function] => connect
+                    [class] => DB
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => mysql://ontl:DyFpA4Y62K6JTA3M5Wg4rUfU7K8UmpaW@localhost/ontl
+                            [1] => Array
+                                (
+                                    [debug] => 2
+                                    [portability] => 63
+                                )
+
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\xampp\htdocs\ontl\index.php
+                    [line] => 6
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\ontl\core\core.php
+                        )
+
+                    [function] => include_once
+                )
+
+        )
+
+    [callback] => 
+)
+DB Error: connect failed
