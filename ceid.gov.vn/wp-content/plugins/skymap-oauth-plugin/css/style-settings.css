@@ -1,0 +1,9 @@
+.smop_table_textbox {
+  width: 80%;
+}
+.smop_settings_table {
+  width: 100%;
+}
+.smop_settings_table tr td:first-child {
+  width: 30%;
+}
